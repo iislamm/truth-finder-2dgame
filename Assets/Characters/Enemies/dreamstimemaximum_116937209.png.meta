@@ -1,0 +1,1349 @@
+fileFormatVersion: 2
+guid: 1c4d85f176d9297409b86d0cb1f642ea
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dreamstimemaximum_116937209_0
+    21300002: dreamstimemaximum_116937209_1
+    21300004: dreamstimemaximum_116937209_2
+    21300006: dreamstimemaximum_116937209_3
+    21300008: dreamstimemaximum_116937209_4
+    21300010: dreamstimemaximum_116937209_5
+    21300012: dreamstimemaximum_116937209_6
+    21300014: dreamstimemaximum_116937209_7
+    21300016: dreamstimemaximum_116937209_8
+    21300018: dreamstimemaximum_116937209_9
+    21300020: dreamstimemaximum_116937209_10
+    21300022: dreamstimemaximum_116937209_11
+    21300024: dreamstimemaximum_116937209_12
+    21300026: dreamstimemaximum_116937209_13
+    21300028: dreamstimemaximum_116937209_14
+    21300030: dreamstimemaximum_116937209_15
+    21300032: dreamstimemaximum_116937209_16
+    21300034: dreamstimemaximum_116937209_17
+    21300036: dreamstimemaximum_116937209_18
+    21300038: dreamstimemaximum_116937209_19
+    21300040: dreamstimemaximum_116937209_20
+    21300042: dreamstimemaximum_116937209_21
+    21300044: dreamstimemaximum_116937209_22
+    21300046: dreamstimemaximum_116937209_23
+    21300048: dreamstimemaximum_116937209_24
+    21300050: dreamstimemaximum_116937209_25
+    21300052: dreamstimemaximum_116937209_26
+    21300054: dreamstimemaximum_116937209_27
+    21300056: dreamstimemaximum_116937209_28
+    21300058: dreamstimemaximum_116937209_29
+    21300060: dreamstimemaximum_116937209_30
+    21300062: dreamstimemaximum_116937209_31
+    21300064: dreamstimemaximum_116937209_32
+    21300066: dreamstimemaximum_116937209_33
+    21300068: dreamstimemaximum_116937209_34
+    21300070: dreamstimemaximum_116937209_35
+    21300072: dreamstimemaximum_116937209_36
+    21300074: dreamstimemaximum_116937209_37
+    21300076: dreamstimemaximum_116937209_38
+    21300078: dreamstimemaximum_116937209_39
+    21300080: dreamstimemaximum_116937209_40
+    21300082: dreamstimemaximum_116937209_41
+    21300084: dreamstimemaximum_116937209_42
+    21300086: dreamstimemaximum_116937209_43
+    21300088: dreamstimemaximum_116937209_44
+    21300090: dreamstimemaximum_116937209_45
+    21300092: dreamstimemaximum_116937209_46
+    21300094: dreamstimemaximum_116937209_47
+    21300096: dreamstimemaximum_116937209_48
+    21300098: dreamstimemaximum_116937209_49
+    21300100: dreamstimemaximum_116937209_50
+    21300102: dreamstimemaximum_116937209_51
+    21300104: dreamstimemaximum_116937209_52
+    21300106: dreamstimemaximum_116937209_53
+    21300108: dreamstimemaximum_116937209_54
+    21300110: dreamstimemaximum_116937209_55
+    21300112: dreamstimemaximum_116937209_56
+    21300114: dreamstimemaximum_116937209_57
+    21300116: dreamstimemaximum_116937209_58
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2559
+        width: 135
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33a9b5656e894b4580314d128c32644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_1
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 2586
+        width: 182
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3032eec123278db45a19039e011008c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 2609
+        width: 203
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f3586764b02c645868170a9d30cb34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_3
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 2572
+        width: 190
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fbe923301bdea4682d6e1ac141124d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 2584
+        width: 140
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ece78ccc7608d449141ba980277417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_5
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2578
+        width: 182
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aac06b7beb5f3644a25af1b30a998e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_6
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2598
+        width: 203
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f48c07ad6bc0542833e6dea943ad47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_7
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 2591
+        width: 185
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37f90459b32e034d92ad3077be4cccb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_8
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 479
+        width: 2540
+        height: 2425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87953bdfb8d94e144b6ee1a6db8a2f0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2132
+        width: 353
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cca95bf55a07447bc9349679730384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2132
+        width: 348
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7151c30617da36642a2c20c4070754a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 2132
+        width: 347
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51e9fb54a05f0a45b4e7030152efbdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_12
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 2132
+        width: 348
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b94d003a188a024cbe275e1151e6363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_13
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 2132
+        width: 347
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cb35775d7b52a46a7ca23c41508cf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_14
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 2132
+        width: 347
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273714650a32e3f438c148c27d070b0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1743
+        width: 349
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f111c1ebf00e3564c9c22bacf5771c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_16
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1746
+        width: 333
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd0a61c8210c544e925bc028823ed1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_17
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1744
+        width: 333
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521ce58ff16f1442a1ab16c679baded
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_18
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1740
+        width: 331
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7c1f54921cf054c8a1778f10ca5eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_19
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1743
+        width: 357
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a9612b6fdb8f5449d5004c23f91279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_20
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1721
+        width: 352
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6282e0488a69ed42b1d41b3e210ceb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1385
+        width: 349
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fae773998520f647b52060a2c007428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_22
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1385
+        width: 389
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233f73bb99ad06741a6c5466f7dc42ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_23
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1398
+        width: 386
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f6949e065f7eb44bb28dada0d61e75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_24
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1392
+        width: 396
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad6e3f7f698819428d512f263b9eed1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_25
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1389
+        width: 393
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ec9d71f58e9504fbb2c40cdc8678fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_26
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1385
+        width: 394
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5ef3078c7d9e74b82d65d0512cc611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1003
+        width: 351
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a41c165fd76d541ba848f1146c7cd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1003
+        width: 302
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01312392be98794b8043753d74e5007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_29
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1003
+        width: 294
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7570a14ff0d4d54d8b159f997bf617d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_30
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1003
+        width: 277
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7583d574c0e7724d886ec62da9a967d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_31
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1003
+        width: 288
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608049e7db15ac744b68b2014df43260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_32
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1003
+        width: 353
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95beec7067d1ed47bc29b1ac0563d33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_33
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 1003
+        width: 414
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfc3b1b2c5cb8e428f4a2ddf0c26cad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_34
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1003
+        width: 431
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ecf4f2cb776a74e85f70820e1adad0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_35
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1003
+        width: 382
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04af7641a40f6d408a7e4dad170721c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 563
+        width: 357
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6107e01b61120694699ce29633844de3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_37
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 563
+        width: 302
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed483dd578a73842a98c55a2686a056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_38
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 563
+        width: 294
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69d5edb8ea74714f987ed18348959e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_39
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 563
+        width: 278
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f91e755f1e7ca44975d6033177512c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_40
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 563
+        width: 291
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef7af261f299444d85c6c1fcc05d891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_41
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 563
+        width: 350
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ba6c709c7a53244a42c29d623ea157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_42
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 563
+        width: 338
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5b8094ac8fa4148ae4de5e14a9b2cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_43
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 563
+        width: 331
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ee18087e0e06e458d03d56f32f6995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_44
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 563
+        width: 321
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8f159de30bace4498766cff31e160d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 108
+        width: 333
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bcd06917f1cb445adfa629a99df9de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_46
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 108
+        width: 329
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa7e8474de57c847a84ab99c64684a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_47
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 105
+        width: 326
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1024211a81e7ccf4892f14085c9e06c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_48
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 105
+        width: 323
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564b2a9ff9d5a64e8ce25650d3a8d5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_49
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 108
+        width: 318
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ada1291efedaa74ab77ee0ce502c332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_50
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 108
+        width: 329
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2735281a55559a429188855dcc48980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_51
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 108
+        width: 335
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f712d5fd28fe3f4a9c8b2b61250cb13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_52
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 108
+        width: 336
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32570c75b86ee964597f6ca44dca3981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_53
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 108
+        width: 347
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec2de6a0714d444d8fa895a88adb0fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_54
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 108
+        width: 354
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d301ee552b40a2b4494bf76cafbea10b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_55
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 108
+        width: 354
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc58a9b0d282ea49af465969db1700f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_56
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 108
+        width: 351
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199e4b5bf683ac46a58e042a16faa57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_57
+      rect:
+        serializedVersion: 2
+        x: 4461
+        y: 108
+        width: 339
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5cb6bd5d2f42b4286e04972b55ab21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dreamstimemaximum_116937209_58
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 108
+        width: 337
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7031500d6e76344a778053760781c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f5887dabcb2f75142a74d5ad715de5b4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
