@@ -4,40 +4,42 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour {
     public bool isFacingRight = false;
     public float speed = 3f;
-    public int damage;
+    public int power;
     public float health = 2;
-    public float maxHealth;
     public EnemyType enemyType;
     private PlayerController _player;
     public bool attacking;
-    protected int pointsValue;
+    public int pointsValue;
+    private Rigidbody2D _rigidbody2D;
+    
+
     private void Start()
     {
+        _rigidbody2D = GetComponent<Rigidbody2D>();
         _player = FindObjectOfType<PlayerController>();
         attacking = false;
+        pointsValue = GetPointsValue();            
     }
 
     private void Update()
     {
-        if (_player != null)
-        {
-            if ((transform.position.x > _player.transform.position.x && isFacingRight)
+        if ((transform.position.x > _player.transform.position.x && isFacingRight)
                 || (transform.position.x < _player.transform.position.x && !isFacingRight))
-            {
-                Flip();
-            }
+        {
+            Flip();
         }
+        
     }
 
     void FixedUpdate()
     {
         if(isFacingRight)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+            _rigidbody2D.velocity = new Vector2(speed, _rigidbody2D.velocity.y);
         }
         else
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, GetComponent<Rigidbody2D>().velocity.y);
+            _rigidbody2D.velocity = new Vector2(-speed, _rigidbody2D.velocity.y);
         }
     }
     protected void Flip()
@@ -53,28 +55,44 @@ public class EnemyController : MonoBehaviour {
     {
         if (other.CompareTag("Player"))
         {
-            FindObjectOfType<PlayerStats>().TakeDamage(damage);
+            FindObjectOfType<PlayerStats>().TakeDamage(power);
             Flip();
         }
     }
-    public void DealDamage(float damage)
+    public void DealDamage(float d)
     {
-        health -= damage;
+        health -= d;
         CheckDeath();
     }
-    void CheckDeath()
+
+    private void CheckDeath()
     {
         if (health <= 0)
         {
-            FindObjectOfType<LevelManager>().ThugDown(gameObject);
+            if (enemyType == EnemyType.Thug)
+            {
+                FindObjectOfType<LevelManager>().EnemyDown(gameObject);
+            }
+            else
+            {
+                FindObjectOfType<LevelManager>().LastEnemyDown();
+            }
             Destroy(gameObject);
         }
     }
     
-
-    public int GetPointsValue()
+    private int GetPointsValue()
     {
-        return pointsValue;
+        switch (enemyType)
+        {
+            case EnemyType.Thug:
+                return 10;
+            case EnemyType.GangHead:
+                return 20;
+            case EnemyType.Boss:
+                return 50;
+            default:
+                return 10;
+        }
     }
-    
 }

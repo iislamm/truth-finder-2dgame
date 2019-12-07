@@ -21,7 +21,7 @@ public class PlayerStats : MonoBehaviour {
         if(this.isImmune == true)
         {
             SpriteFlicker();
-            _immunityTime = _immunityTime + Time.deltaTime;
+            _immunityTime += Time.deltaTime;
             if(_immunityTime >= immunityDuration)
             {
                 this.isImmune = false;
@@ -64,8 +64,6 @@ public class PlayerStats : MonoBehaviour {
                 Debug.Log("GameOver");
                 Destroy(this.gameObject);
             }
-            Debug.Log("Player health : " + this.health.ToString());
-            Debug.Log("Player lives : " + this.lives.ToString());
         }
         PlayHitReaction();
     }

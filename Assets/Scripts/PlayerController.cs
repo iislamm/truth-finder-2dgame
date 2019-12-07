@@ -4,19 +4,27 @@ using UnityEngine.Serialization;
 public class PlayerController : MonoBehaviour {
     public float moveSpeed;
     public float jumpHeight;
-    bool _isFacingRight;
-    [FormerlySerializedAs("Spacebar")] public KeyCode spacebar;
-    [FormerlySerializedAs("L")] public KeyCode l;
-    [FormerlySerializedAs("R")] public KeyCode r;
-    public KeyCode shootKey;
+    public bool isFacingRight;
+    public bool hasShootAttack = false;
+    public KeyCode spacebar;
+    public KeyCode l;
+    public KeyCode r;
+    public KeyCode normalAttackKey;
+    public KeyCode shootAttackKey;
+    public KeyCode ultimateAttackKey;
     public Transform groundCheck;
     public float groundCheckRadius;
-
-    public LayerMask whatisGround;
+    public LayerMask whatIsGround;
     private bool _grounded;
     public bool attacking = false;
     public int attackPower;
-
+    private Rigidbody2D _rigidbody2D;
+    private int _ultimateSkillTimer;
+    public GameObject ultimateBullet;
+    public GameObject normalBullet;
+    public Transform firePoint;
+    private int _attackTimout;
+    
     //Animation
     private Animator _animator;
     private static readonly int Grounded = Animator.StringToHash("Grounded");
@@ -24,67 +32,109 @@ public class PlayerController : MonoBehaviour {
     private static readonly int Attacking = Animator.StringToHash("Attacking");
 
     // Use this for initialization
-    void Start () {
-        _isFacingRight = true;
+    private void Start () {
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+        isFacingRight = true;
         _animator = GetComponent<Animator>();
+        _ultimateSkillTimer = 1000;
     }
 	
     // Update is called once per frame
-    void Update () {
-
+    private void Update ()
+    {
+        _ultimateSkillTimer--;
         if (Input.GetKeyDown(spacebar) && _grounded){
             Jump();
         }
 
         if (Input.GetKey(l))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            _rigidbody2D.velocity = new Vector2(-moveSpeed, _rigidbody2D.velocity.y);
           
-            if (_isFacingRight)
+            if (isFacingRight)
             {
                 Flip();
-                _isFacingRight = false;
+                isFacingRight = false;
             }
         }
 
         if (Input.GetKey(r))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            _rigidbody2D.velocity = new Vector2(moveSpeed, _rigidbody2D.velocity.y);
          
-            if (!_isFacingRight)
+            if (!isFacingRight)
             {
                 Flip();
-                _isFacingRight = true;
+                isFacingRight = true;
             }
         }
 
-        if (Input.GetKey(shootKey))
+        if (Input.GetKeyDown(normalAttackKey))
         {
+            _attackTimout = 15;
             attacking = true;
             _animator.SetBool(Attacking, true);
         }
         else
         {
-            attacking = false;
-            _animator.SetBool(Attacking, false);
+            if (_attackTimout <= 0)
+            {
+                attacking = false;
+                _animator.SetBool(Attacking, false);
+            }
+            else
+            {
+                _attackTimout--;
+            }
+        }
+
+        if (Input.GetKeyDown(ultimateAttackKey))
+        {
+            UltimateAttack();
+        }
+
+        if (Input.GetKeyDown(shootAttackKey))
+        {
+            ShootAttack();
         }
         
         _animator.SetBool(Grounded, _grounded);
-        _animator.SetFloat(Speed, Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x));
+        _animator.SetFloat(Speed, Mathf.Abs(_rigidbody2D.velocity.x));
     }
 
-    void FixedUpdate()
+    private void UltimateAttack()
     {
-        _grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatisGround);
+        if (_ultimateSkillTimer <= 0)
+        {
+            _ultimateSkillTimer = 1000;
+            Instantiate(ultimateBullet, firePoint.position, firePoint.rotation);
+        }
+        
     }
 
-    void Flip(){
-        transform.localScale = new Vector3(-(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-    }
-
-    void Jump()
+    private void ShootAttack()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);
-       
+        if (hasShootAttack)
+        {
+            Instantiate(normalBullet, firePoint.position, firePoint.rotation);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        _grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+    }
+
+    private void Flip()
+    {
+        var transform1 = transform;
+        var localScale = transform1.localScale;
+        localScale = new Vector3(-(localScale.x), localScale.y, localScale.z);
+        transform1.localScale = localScale;
+    }
+
+    private void Jump()
+    {
+        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpHeight);
     }
 }
